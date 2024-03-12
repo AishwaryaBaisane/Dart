@@ -53,10 +53,13 @@ void main()
     };
     
      print("${i+1} employee detail :- \n\n");
-    
-     print(e1.age);
+    print("id :");
      print(e1.id);
+       print("name :");
      print(e1.name);
+       print("age :");
+     print(e1.age);
+       print("salary :");
      print(e1.salary);
 
    print("\n\n");
