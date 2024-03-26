@@ -64,7 +64,7 @@ void main() {
     stdout.write("Enter your password : ");
     pswrd = stdin.readLineSync()!;
     if (id == user_id  && pswrd == Password1) {
-      stdout.write("\nLogin Successfully..\n");
+      stdout.write("\WeLcome..\n");
       
     } else {
       stdout.write("\nInvalid User ID or Password..\n");
@@ -86,7 +86,6 @@ void main() {
      {
 
        case 1:
-        //Sort In Ascending Order
         for (i = 0; i < list.length; i++) {
           for (j = i + 1; j < list.length; j++) {
             if (list[i].ItemNumber! > list[j].ItemNumber!) {
