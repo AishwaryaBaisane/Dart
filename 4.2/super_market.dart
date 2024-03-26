@@ -49,8 +49,8 @@ class Supermarket {
 }
 
 void main() {
-  int i, n, j;
-  String id, pswrd;
+
+  String id, password;
 
   List<Supermarket> list = [];
   Supermarket obj = new Supermarket();
@@ -63,7 +63,7 @@ void main() {
     id = stdin.readLineSync()!;
     stdout.write("Enter your password : ");
     pswrd = stdin.readLineSync()!;
-    if (id == user_id  && pswrd == Password1) {
+    if (id == user_id  && password == Password1) {
       stdout.write("\WeLcome..\n");
       
     } else {
@@ -74,7 +74,7 @@ void main() {
   stdout.write("\nEnter the N number of Item : ");
   n = int.parse(stdin.readLineSync()!);
 
-  for (i = 0; i < n; i++) {
+  for (int i = 0; i < n; i++) {
     Supermarket obj = Supermarket();
     obj.setter(i);
     list.add(obj);
@@ -86,8 +86,8 @@ void main() {
      {
 
        case 1:
-        for (i = 0; i < list.length; i++) {
-          for (j = i + 1; j < list.length; j++) {
+        for (int i = 0; i < list.length; i++) {
+          for (int j = i + 1; j < list.length; j++) {
             if (list[i].ItemNumber! > list[j].ItemNumber!) {
               Supermarket obj = list[j];
               list[j] = list[i];
@@ -96,7 +96,7 @@ void main() {
           }
         }
         print("\nAll Train Details in Ascending Order Are Below : ");
-        for (i = 0; i < list.length; i++) {
+        for (int i = 0; i < list.length; i++) {
           list[i].getter(i);
         }
         break;
