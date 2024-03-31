@@ -12,25 +12,25 @@ class Student
 
   List<Student>student1List = [
     Student(name: 'aaryan', roll_number: 1, course: 'flutter'),
-    Student(name: 'aaryan', roll_number: 2, course: 'flutter'),
-    Student(name: 'aaryan', roll_number: 3, course: 'flutter'),
-    Student(name: 'aaryan', roll_number: 4, course: 'flutter'),
+    Student(name: 'anshu', roll_number: 2, course: 'flutter'),
+    Student(name: 'radha', roll_number: 3, course: 'flutter'),
+    Student(name: 'aaraya', roll_number: 4, course: 'flutter'),
     Student(name: 'aaryan', roll_number: 5, course: 'flutter'),
-    Student(name: 'aaryan', roll_number: 6, course: 'flutter'),
-    Student(name: 'aaryan', roll_number: 7, course: 'flutter'),
-    Student(name: 'aaryan', roll_number: 8, course: 'flutter'),
-    Student(name: 'aaryan', roll_number: 9, course: 'flutter'),
-    Student(name: 'aaryan', roll_number: 10, course: 'flutter'),
+    Student(name: 'anshu', roll_number: 6, course: 'flutter'),
+    Student(name: 'radha', roll_number: 7, course: 'flutter'),
+    Student(name: 'aarya', roll_number: 8, course: 'flutter'),
+    Student(name: 'ansh', roll_number: 9, course: 'flutter'),
+    Student(name: 'ansh', roll_number: 10, course: 'flutter'),
   ];
 }
 
 List student2List = [
        {'name' : 'aaryan','roll_number' : 1,'course' : 'flutter'},
-       {'name' : 'aaryan','roll_number' : 2,'course' : 'flutter'},
-       {'name' : 'aaryan','roll_number' : 3,'course' : 'flutter'},
-       {'name' : 'aaryan','roll_number' : 4,'course' : 'flutter'},
+       {'name' : 'anshu','roll_number' : 2,'course' : 'flutter'},
+       {'name' : 'radha','roll_number' : 3,'course' : 'flutter'},
+       {'name' : 'aarya','roll_number' : 4,'course' : 'flutter'},
        {'name' : 'aaryan','roll_number' : 5,'course' : 'flutter'},
-       {'name' : 'aaryan','roll_number' : 6,'course' : 'flutter'},
+       {'name' : 'aanshu','roll_number' : 6,'course' : 'flutter'},
        {'name' : 'aaryan','roll_number' : 7,'course' : 'flutter'},
        {'name' : 'aaryan','roll_number' : 8,'course' : 'flutter'},
        {'name' : 'aaryan','roll_number' : 9,'course' : 'flutter'},
